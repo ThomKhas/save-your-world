@@ -1,4 +1,6 @@
-# Bienvenido👋
+# Bienvenido a Save Your World👋
+
+*for the use of this, you must correctly configure the repository to which you are pointing, since in this case it is pointing to a private one, where I am a collaborator.*
 Create a Virtual Environment (optional but recommended):
 python -m venv venv
 This creates a virtual environment in the venv directory. You can activate it using:
