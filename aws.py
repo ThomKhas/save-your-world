@@ -51,6 +51,7 @@ def commit_push(src_folder, repo_folder):
     # Verifica si el repositorio ya ha sido clonado
     if not os.path.exists(repo_folder):
         # Si no, clona el repositorio de GitHub
+        # ACÁ DEBES CAMBIAR EL LINK DEL REPOSITORIO A UNO PROPIO
         Repo.clone_from("https://github.com/monitosfullmax/WORLD.git", repo_folder)
     else:
         print("La carpeta ya existe.")
@@ -60,6 +61,7 @@ def commit_push(src_folder, repo_folder):
         except InvalidGitRepositoryError:
             print("La carpeta no es un repositorio Git válido. Se clonará nuevamente.")
             git = cmd.Git()
+            # ACÁ DEBES CAMBIAR EL LINK DEL REPOSITORIO A UNO PROPIO
             git.clone("https://github.com/monitosfullmax/WORLD.git", repo_folder)
 
     # Obtén el nombre de la carpeta de origen
