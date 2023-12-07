@@ -1,6 +1,6 @@
 # Bienvenido a Save Your World👋
 
-*for the use of this, you must correctly configure the repository to which you are pointing, since in this case it is pointing to a private one, where I am a collaborator.*
+*for the use of this script, you must configure correctly the repository to which you are pointing, this is in aws.py, then use ctrl+f and look for "link" and you will see the two places where you must make this change, since in this case it is pointing to a private one, where I am a collaborator.*
 
 Create a Virtual Environment (optional but recommended):
 python -m venv venv
